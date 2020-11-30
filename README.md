@@ -4,7 +4,7 @@ VSCode por defecto no tiene un soporte para Ada, y las pocas extensiones que tie
 
 # Prerequisitos
 
-> La guía está pensada para Windows 10 y una distribución Linux basada en Debian. Otros sistemas operativos deberían ser compatibles, pero es posible que requieran pasos extra. Se considera inexperto a todo usuario y el espacio de trabajo incluye algunas configuraciones por defecto. 
+> La guía está pensada para Windows 10 y una distribución Linux basada en Debian. Otros sistemas operativos, como MacOS, deberían ser compatibles, pero es posible que requieran pasos extra o ciertas funcionalidades no funcionen. Algunas configuraciones y extensiones recomendadas se incluyen por defecto, modifique los archivos si lo desea. 
 
 - Tener instalado GNAT, puedes descargarlo desde la [web oficial de Adacore](https://www.adacore.com/download).
 
@@ -20,35 +20,37 @@ VSCode por defecto no tiene un soporte para Ada, y las pocas extensiones que tie
 
 # Instalación
 
-1. Crear una carpeta para tu proyecto.
+<!-- Github pages es un poco tonto y corta las listas, con lo que las escribo en texto forzadamente y listo -->
+
+1- Crear una carpeta para tu proyecto.
 
 > Se recomienda la primera vez dos carpetas, una en la cual guardes este y tus futuros proyectos de Ada y otra dentro donde guardas este proyecto.
 
-2. Descomprimir los contenidos [del zip *Ada_VSCode*](https://github.com/Markel/ada-en-vscode/releases/latest) dentro de la carpeta (tendrás que copiar los archivos cada vez que crees un nuevo projecto).
+2- Descomprimir los contenidos [del zip *Ada_VSCode*](https://github.com/Markel/ada-en-vscode/releases/latest) dentro de la carpeta (tendrás que copiar los archivos cada vez que crees un nuevo projecto).
 
-3. - (1) Abrir Visual Studio Code y dale a File>Open Folder... y navega hasta tu carpeta recien creada.
+3.1- Abrir Visual Studio Code y dale a File>Open Folder... y navega hasta tu carpeta recien creada.
 
-   - (2) Alternativamente puedes hacer click derecho en la carpeta y dar a *Open with Code*
+3.2- Alternativamente puedes hacer click derecho en la carpeta y dar a *Open with Code*
 
-4. Abajo a la derecha te aparecerá el siguiente mensaje: *Do you want to install de recommended extensions for this repository?*, dale a *install* y **ESPERA hasta que el reloj del quinto icono de la izquierda desaparezca.**
+4- Abajo a la derecha te aparecerá el siguiente mensaje: *Do you want to install de recommended extensions for this repository?*, dale a *install* y **ESPERA hasta que el reloj del quinto icono de la izquierda desaparezca.**
 
 ![Mensaje de instalación](https://i.imgur.com/Hx8gADT.png)
 
-5. En el icono inferior derecho (la campana) aparecerá la notificación *Thank you for installing vscode-icons* dale a *activate*.
+5- En el icono inferior derecho (la campana) aparecerá la notificación *Thank you for installing vscode-icons* dale a *activate*.
 
 > Es posible que este mensaje no aparezca, si no lo hace, una vez acabado todo, ve a la sección [VSCode Icons de la sección de problemas](#VSCode-Icons).
 
-6. Si deseas configurar VScode en español, en el mensaje *"Would you like to change VS Code's UI language to Spanish and restart?"* dale a *"yes"*. VScode se reiniciará.
+6- Si deseas configurar VScode en español, en el mensaje *"Would you like to change VS Code's UI language to Spanish and restart?"* dale a *"yes"*. VScode se reiniciará.
 
 ![Mensaje de reinicio](https://i.imgur.com/XSgQGYr.png)
 
-7. En Windows, presiona <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> y escribe *Terminal: Seleccionar el shell predeterminado* y selecciona *Command Prompt*.
+7- En Windows, presiona <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> y escribe *Terminal: Seleccionar el shell predeterminado* y selecciona *Command Prompt*.
 
 ![Opción del menú](https://i.imgur.com/UVCNbB2.png)
 
 ![Shell correcta](https://i.imgur.com/JrNUOHu.png)
 
-8. Listo! Recomiendo crear un archivo hello.adb (en el root de tu carpeta, no dentro de .vscode) como el siguiente para probar que todo va bien.
+8- Listo! Recomiendo crear un archivo hello.adb (en el root de tu carpeta, no dentro de .vscode) como el siguiente para probar que todo va bien.
 
 ```ada
 with Text_IO; use Text_IO;
@@ -73,7 +75,7 @@ end Hello;
 
 > Puedes volver a la Terminal haciendo click en Terminal (a la izquierda de Consola de Depuración).
 
-Ejemplo de como sería el debugging the hello.adb:
+Ejemplo de como sería el debugging de hello.adb:
 
 ![VSCode debugeando](https://i.imgur.com/2biGXkd.png)
 
