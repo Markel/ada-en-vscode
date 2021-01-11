@@ -36,6 +36,8 @@ VSCode por defecto no tiene un soporte para Ada, y las pocas extensiones que tie
 
 ![Mensaje de instalación](https://i.imgur.com/Hx8gADT.png)
 
+![Reloj al que hay que esperar](https://i.imgur.com/D6gYc3f.png)
+
 5- En el icono inferior derecho (la campana) aparecerá la notificación *Thank you for installing vscode-icons* dale a *activate*.
 
 > Es posible que este mensaje no aparezca, si no lo hace, una vez acabado todo, ve a la sección [VSCode Icons de la sección de problemas](#VSCode-Icons).
