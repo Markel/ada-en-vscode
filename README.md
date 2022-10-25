@@ -118,7 +118,7 @@ Es posible que después de la instalación encuentres algunos problemas. Estos s
 
 [Quiero cambiar de idioma](#Quiero-cambiar-de-idioma)
 
-[No tengo las extensiones instaladas (si inseguro sigue los pasos)](No-tengo-las-extensiones-instaladas)
+[No tengo las extensiones instaladas (si inseguro sigue los pasos)](#No-tengo-las-extensiones-instaladas)
 
 [Token '&&' is not valid](#Token-'&&'-is-not-valid)
 
